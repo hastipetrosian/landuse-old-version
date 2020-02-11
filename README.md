@@ -1,3 +1,4 @@
+```
 # landuse 2018
 > library(geosample)
 Loading required package: sf
@@ -197,3 +198,4 @@ In addition: Warning messages:
 3: In max(x) : no non-missing arguments to max; returning -Inf
 > dd=read_sf("1987.shp")
 > plot(dd)
+```
