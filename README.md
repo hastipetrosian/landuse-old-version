@@ -32,7 +32,7 @@ proj4string:    +proj=utm +zone=40 +datum=WGS84 +units=m +no_defs
 Error: object 'plt' not found
 > plot(dd)
 > 
-  landuse 2014
+# landuse 2014
   > library(geosample)
 Loading required package: sf
 Linking to GEOS 3.6.1, GDAL 2.2.3, PROJ 4.9.3
@@ -63,7 +63,7 @@ proj4string:    +proj=utm +zone=40 +datum=WGS84 +units=m +no_defs
 12       12 vegetatio~    272452.  49536966. Z (((619612.3 2833140 0, 619612.2 2~
 > dd=read_sf("2014v2.shp")
 > plot(dd)
- landuse 2008
+# landuse 2008
           library(sf)
 Linking to GEOS 3.6.1, GDAL 2.2.3, PROJ 4.9.3
 > library(geosample)
@@ -95,7 +95,7 @@ proj4string:    +proj=utm +zone=40 +datum=WGS84 +units=m +no_defs
 Error in read.sf("2008v2.shp") : could not find function "read.sf"
 > dd=read_sf("2008v2.shp")
 > plot(dd)
-> landuse 2004
+# landuse 2003
          
 > library(sf)
 Linking to GEOS 3.6.1, GDAL 2.2.3, PROJ 4.9.3
@@ -125,7 +125,7 @@ proj4string:    +proj=utm +zone=40 +datum=WGS84 +units=m +no_defs
 Error: unexpected symbol in "dd=read_sf(2003v2.shp"
 > dd=read_sf("2003v2.shp")
 > plot(dd)
-   landuse 1997
+# landuse 1997
    > library(geosample)
 Loading required package: sf
 Linking to GEOS 3.6.1, GDAL 2.2.3, PROJ 4.9.3
@@ -160,8 +160,8 @@ Error: Cannot open "1997-v2"; The file doesn't seem to exist.
 Error: Cannot open "1997-v2,shp"; The file doesn't seem to exist.
 > dd=read_sf("1997-v2.shp")
 > plot(dd)
-         landuse 1987
-         > library(sf)
+# landuse 1987
+ > library(sf)
 Linking to GEOS 3.6.1, GDAL 2.2.3, PROJ 4.9.3
 > library(geosample)
 Loading required package: sp
